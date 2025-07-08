@@ -1,0 +1,64 @@
+section {
+    background-image: url(./../../../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-block: 120px;
+    padding-inline: 160px;
+    >h2 {
+        font-size: 80px;
+        font-weight: bold;
+        text-align: center;
+        color: #9F0908;
+        margin-bottom: 64px;
+    }
+    >div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 80px;
+    }
+}
+
+img {
+    width: 352px;
+    height: 352px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.menu-dishes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.span-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 160px;
+    >span {
+        font-weight: bold;
+        font-size: 32px;
+        color: #675E54;
+    }
+}
+
+.mt {
+    margin-top: 56px;
+}
+
+.flex-reverse {
+    flex-direction: row-reverse;
+}
