@@ -8,26 +8,26 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
 
-.logo {
-    width: 64px;
-    height: 64px;
-}
+    >img {
+        width: 64px;
+        height: 64px;
+    }
 
-nav {
-    display: flex;
-    gap: 32px;
-    align-items: center;
-}
+    >nav {
+        display: flex;
+        gap: 32px;
+        align-items: center;
 
-a {
-    color: white;
-    font-weight: normal;
-    font-size: 24px;
+        >a {
+            color: white;
+            font-weight: normal;
+            font-size: 24px;
 
-    &:hover {
-        text-decoration: underline;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 }
 
@@ -47,4 +47,3 @@ a {
         background-color: hsl(0, 90%, 43%);
     }
 }
-
