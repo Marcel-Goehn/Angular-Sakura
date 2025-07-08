@@ -1,0 +1,18 @@
+footer {
+    height: 144px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 160px;
+    background-color: #0A141E;
+    >img {
+        height: 44px;
+    }
+    >a {
+        color: white;
+        font-size: 40px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
