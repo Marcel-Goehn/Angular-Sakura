@@ -1,3 +1,5 @@
+@import './../../../variables.scss';
+
 section {
     background-image: url(./../../../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
     background-position: center;
@@ -9,7 +11,7 @@ section {
         font-size: 80px;
         font-weight: bold;
         text-align: center;
-        color: #9F0908;
+        color: $darkred;
         margin-bottom: 64px;
     }
     >div {
@@ -51,7 +53,7 @@ h3 {
     >span {
         font-weight: bold;
         font-size: 32px;
-        color: #675E54;
+        color: $brown-greyish;
     }
 }
 

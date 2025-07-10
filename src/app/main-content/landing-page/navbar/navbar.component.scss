@@ -1,3 +1,5 @@
+@import './../../../../variables.scss';
+
 header {
     position: absolute;
     top: 0;
@@ -20,7 +22,7 @@ header {
         align-items: center;
 
         >a {
-            color: white;
+            color: $white;
             font-weight: normal;
             font-size: 24px;
 
@@ -36,14 +38,14 @@ header {
     align-items: center;
     gap: 8px;
     padding: 10px 10px;
-    background-color: hsl(0, 90%, 33%);
+    background-color: $darkred;
     border-radius: 10px;
-    border-color: white;
+    border-color: $white;
     border-width: 2px;
     border-style: solid;
 
     &:hover {
         text-decoration: none;
-        background-color: hsl(0, 90%, 43%);
+        background-color: $darkred-secondary;
     }
 }

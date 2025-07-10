@@ -1,3 +1,5 @@
+@import './../../../variables.scss';
+
 section {
     height: 100dvh;
     background-image: url('./../../../assets/img/1_hero/JPG/hero_bg.jpg');
@@ -11,13 +13,13 @@ section {
 }
 
 h1 {
-    color: white;
+    color: $white;
     font-weight: bold;
     font-size: 96px;
 }
 
 h2 {
-    color: white;
+    color: $white;
     font-size: 24px;
     font-weight: normal;
 }
