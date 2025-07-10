@@ -1,10 +1,9 @@
 @import './../../../../variables.scss';
+@import './../../../../mixins.scss';
 
 footer {
     height: 144px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include dFlex($jc: space-between);
     padding-inline: 160px;
     background-color: $dark-blue;
     >img {

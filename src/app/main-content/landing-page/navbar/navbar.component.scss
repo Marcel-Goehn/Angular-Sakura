@@ -1,4 +1,5 @@
 @import './../../../../variables.scss';
+@import './../../../../mixins.scss';
 
 header {
     position: absolute;
@@ -7,9 +8,7 @@ header {
     width: 100%;
     padding-inline: 160px;
     height: 112px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include dFlex($jc: space-between);
 
     >img {
         width: 64px;
@@ -17,9 +16,7 @@ header {
     }
 
     >nav {
-        display: flex;
-        gap: 32px;
-        align-items: center;
+        @include dFlex($g: 32px);
         font-family: $raleway;
         >a {
             color: $white;
@@ -34,8 +31,7 @@ header {
 }
 
 .link-btn {
-    display: flex;
-    align-items: center;
+    @include dFlex();
     gap: 8px;
     padding: 10px 10px;
     background-color: $darkred;
